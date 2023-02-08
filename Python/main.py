@@ -13,5 +13,6 @@ if __name__ == "__main__" :
     
     # Objeto No.2
     car_2 = car()
-    car_2.driver = "XLS128"
+    car_2.license = "XLS128"
+    car_2.driver = "Juan Salvador"
     print(vars(car_2))
