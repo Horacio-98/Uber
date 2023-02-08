@@ -3,6 +3,12 @@ class Main {
 
     public static void main(String[] args) {
         System.out.println("Hola mundo");
-        System.out.println("Aprendiendo Java");
+
+        car car = new car("AMQ123", new account("Horacio GA","123")); 
+        car.passenger = 4; 
+        car.printDataCar();
+
     }
 }
+
+

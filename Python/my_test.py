@@ -1,3 +1,14 @@
+class Muebles :
+    
+    def __init__(self,tipo,color,material) -> None:
+        self.tipo = tipo
+        self.color = color 
+        self.material = material
+        
+    def utilidad(self) : 
+        print(f'Este objeto es ', self.tipo)
+    
+
 class Auto:
     def __init__(self, make, model, year, speed):
         self.make = make
@@ -15,6 +26,7 @@ class Auto:
         return self.speed
     
 class Rectangulo : 
+
     def __init__(self,largo,ancho):
         self.largo = largo
         self.ancho = ancho
@@ -25,9 +37,7 @@ class Rectangulo :
     def operacion_perimetro(self) : 
         print('Perimetro del rectangulo = ', ((self.ancho*2) + (self.largo*2)))
     
-        
-        
-    
+
     
 class Persona: 
     def __init__(self, nombre, apellido_m, apellido_p, edad):
@@ -77,15 +87,4 @@ Persona_1.saludar()
 rectangulo_1 = Rectangulo(10,8)
 rectangulo_1.operacion_area()
 rectangulo_1.operacion_perimetro()
-
-
-diccionario = {
-    'nombre' : 'Abel', 
-    'apellido' : 'Granados'
-}
-
-print(diccionario)
-
-set_1 = {1,2,3,4,1,2,3,4}
-print(set_1)
 
