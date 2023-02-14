@@ -5,6 +5,7 @@ class Muebles :
         self.color = color 
         self.material = material
         
+        
     def utilidad(self) : 
         print(f'Este objeto es ', self.tipo)
     
