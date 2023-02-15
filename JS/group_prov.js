@@ -3,7 +3,7 @@ function getTipo(code) {
       100: "CLIENTES",
       101: "PROVEEDORES",
       102: "CXC CLIENTES",
-      103: "CREDITOS",
+      103: "CREDITO",
       104: "PAGOS RECURRENTES",
       105: "ESPORADICOS",
       106: "CXC VARIAS",
