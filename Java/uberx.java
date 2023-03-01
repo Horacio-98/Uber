@@ -17,6 +17,12 @@ class uberx extends car{
         System.out.println("License : " + brand);
     }
 
+    @Override
+    public void setPassenger(Integer passenger) {
+        // TODO Auto-generated method stub
+        super.setPassenger(passenger);
+    }
+
 }
 
 
