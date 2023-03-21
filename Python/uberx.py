@@ -14,3 +14,4 @@ class uberx(car) :
     
     def getmodel(self) : 
         return self.model
+    
